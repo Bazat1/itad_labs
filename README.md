@@ -31,9 +31,6 @@ uv run --env-file .env python scripts/read_raw.py --path "s3://raw/green_tripdat
 docker compose down
 ```
 
-`Makefile` оставлен как необязательные сокращения для macOS, Linux и WSL. В частности, можно выполнить
-`make read-raw RAW_PATH="s3://raw/green_tripdata/ingested_on=2026-01-01/green_tripdata_2025-01.parquet"`.
-
 ## Структура
 
 - `config/` — будущие правила качества.

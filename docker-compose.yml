@@ -38,7 +38,7 @@ x-airflow-common: &airflow-common
 services:
   minio:
     # Актуальные официальные образы MinIO публикуются в Quay Registry.
-    image: quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z
+    image: quay.io/minio/aistor/minio:RELEASE.2026-09-19T17-05-25Z
     command: server /data --console-address ":9001"
     environment:
       MINIO_ROOT_USER: ${MINIO_ROOT_USER}
